@@ -138,7 +138,7 @@ milestone-2/
 └── docs/            # Shared, official deliverables
 ```
 
-**How we collaborate:** Each member works in her own `stage2/<name>` branch and opens a **Pull Request targeting `milestone-2`**. Another team member reviews the changes before they are merged. This makes individual contributions traceable.
+**How we collaborate:** Each member works in her own `M2-<Name>` branch and opens a **Pull Request targeting `milestone-2`**. Another team member reviews the changes before they are merged. This makes individual contributions traceable.
 
 See [Contribution Guidelines](CONTRIBUTING.md), [Team Roster](TEAM.md), and [Milestone 2 Documentation](docs/README.md).
 
