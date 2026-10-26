@@ -110,35 +110,7 @@ The design work focuses on:
 
 ## 📂 Project Organization
 
-Our **`milestone-2` branch** keeps each member's work organized by stage:
-
-```text
-milestone-2/
-├── samar/
-│   ├── Stage-1/
-│   └── Stage-2/
-├── lyan/
-│   ├── Stage-1/
-│   └── Stage-2/
-├── lena/
-│   ├── Stage-1/
-│   └── Stage-2/
-├── monera/
-│   ├── Stage-1/
-│   └── Stage-2/
-├── reyouf/
-│   ├── Stage-1/
-│   └── Stage-2/
-├── maisa/
-│   ├── Stage-1/
-│   └── Stage-2/
-├── haya/
-│   ├── Stage-1/
-│   └── Stage-2/
-└── docs/            # Shared, official deliverables
-```
-
-**How we collaborate:** Each member works in her own `M2-<Name>` branch and opens a **Pull Request targeting `milestone-2`**. Another team member reviews the changes before they are merged. This makes individual contributions traceable.
+Our **`milestone-2` branch** holds the shared Milestone 2 deliverables in `docs/`. Each member contributes through her own branch: `M2-Maisa`, `M2-Samar`, `M2-Lyan`, `M2-Lena`, `M2-Monera`, `M2-Reyouf`, or `M2-Haya`. Members open a **Pull Request targeting `milestone-2`**, which is reviewed before merging.
 
 See [Contribution Guidelines](CONTRIBUTING.md), [Team Roster](TEAM.md), and [Milestone 2 Documentation](docs/README.md).
 
