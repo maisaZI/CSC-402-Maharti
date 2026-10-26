@@ -81,7 +81,7 @@ The design work focuses on:
 - Helpful empty, loading, validation, and error states.
 - A smooth journey from discovering a skill to scheduling an exchange.
 
-**Prototype:** [Add the verified Figma prototype URL here once the team confirms the final share link.](https://www.figma.com/design/C7kJyspozVnCzA4Zkg1uwp/Maharti-%E2%80%93-Purple---Gold-Prototype?node-id=0-1&t=fJ8tEIzg9snRYJoD-1)
+**Prototype:** (https://www.figma.com/design/C7kJyspozVnCzA4Zkg1uwp/Maharti-%E2%80%93-Purple---Gold-Prototype?node-id=0-1&t=fJ8tEIzg9snRYJoD-1)
 
 ## 🛠 Technology Stack
 
