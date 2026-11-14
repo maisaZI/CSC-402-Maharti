@@ -1,8 +1,8 @@
 Milestone 3 — Database Design
 
 **Maisa Alzahrani**
-**Contribution:** Prepared the cover sheet and entity overview, organized GitHub contributions, and coordinated the PDF file .
 
+**Contribution:** Managed and organized the GitHub repository (Section 7 – GitHub Evidence), prepared Section 1 (Entities at a Glance), and identified the database entities for my two assigned screens.
 
 **Lyan alzahrani**
 - Collected and unified all relationships across **all screens** 
