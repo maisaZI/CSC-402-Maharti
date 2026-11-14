@@ -15,8 +15,7 @@ to complete **Section 4 (Relationships)**.
 Developed the Room Database plan, identified the required DAOs and their queries, defined the Entity classes based on the ERD, and specified the required TypeConverters, Enums, sample data, and remote data source approach
 
 **Monera Alhajri** 
-designed the Relationship Scheme & data dictionary tables
-
+designed the Relationship Scheme & data dictionary tables and contributed to organizing and reviewing the document 
 **Reyouf alshehri**
 Mapped and structured the 12 primary application screens (including UI states and pop-ups) to their corresponding database tables, explicitly defining Reads and Writes operations based on the system's ER diagram.
 
