@@ -19,3 +19,7 @@ designed the Relationship Scheme & data dictionary tables
 
 **Reyouf alshehri**
 Mapped and structured the 12 primary application screens (including UI states and pop-ups) to their corresponding database tables, explicitly defining Reads and Writes operations based on the system's ER diagram.
+
+**Samar Alasmakh**
+Designed the Relationship Schema & data dictionary tables (for Screens 08 (My Exchanges) and 09 (Profile), ensuring consistency with the team's ERD.)
+,and contributed to organizing and formatting the final database design document.
