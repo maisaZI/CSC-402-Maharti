@@ -5,12 +5,12 @@ Milestone 3 — Database Design
 
 
 **Lyan alzahrani**
-Designed and documented Section 4 (Relationships) of the database schema
-specifying all 1:N relationships, foreign key mappings, and ON DELETE CASCADE
- constraints across all tables. 
-Also standardized the entities and attributes for 
-Screen 05 (Receiver Profile) and Screen 13 (Review Exchange) 
-to maintain consistent naming across the team's schema.
+Completed Section 4 (Relationships) by documenting 
+all 1:N relationships, foreign key mappings, 
+and ON DELETE CASCADE constraints across **all** app entities, 
+and extracted the required entities and attributes 
+for Screen 05 (Receiver Profile) and Screen 13 (Review Exchange) 
+to match the team's schema
 
 
 
