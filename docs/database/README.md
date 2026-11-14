@@ -15,3 +15,6 @@ to maintain consistent naming across the team's schema.
 
 
 **lena alghamdi**
+
+**Monera Alhajri** 
+designed the Relationship Scheme & data dictionary tables
