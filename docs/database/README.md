@@ -11,11 +11,8 @@ to complete **Section 4 (Relationships)**.
 
 
 
-
-
-
-
 **lena alghamdi**
+Developed the Room Database plan, identified the required DAOs and their queries, defined the Entity classes based on the ERD, and specified the required TypeConverters, Enums, sample data, and remote data source approach
 
 **Monera Alhajri** 
 designed the Relationship Scheme & data dictionary tables
