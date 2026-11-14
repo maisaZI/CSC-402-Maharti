@@ -5,12 +5,13 @@ Milestone 3 — Database Design
 
 
 **Lyan alzahrani**
-Completed Section 4 (Relationships) by documenting 
-all 1:N relationships, foreign key mappings, 
-and ON DELETE CASCADE constraints across **all** app entities, 
-and extracted the required entities and attributes 
-for Screen 05 (Receiver Profile) and Screen 13 (Review Exchange) 
-to match the team's schema
+- Collected and unified all relationships across **all screens** 
+to complete **Section 4 (Relationships)**.
+- Extracted the entities and fields for **Screens 05 & 13**.
+
+
+
+
 
 
 
