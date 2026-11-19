@@ -11,18 +11,17 @@ import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import com.example.maharti.ui.theme.Cream
+import com.example.maharti.ui.theme.Purple
+import com.example.maharti.ui.theme.Ink
+import com.example.maharti.ui.theme.Lavender
+import com.example.maharti.ui.theme.Mint
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-
-private val Cream = Color(0xFFFCF8F2)
-private val Purple = Color(0xFF5F1BA9)
-private val Ink = Color(0xFF281E39)
-private val Lavender = Color(0xFFF2ECFC)
-private val Mint = Color(0xFFDFF8F3)
 
 /** Acceptance must come from the recipient/backend for the current request ID. */
 enum class ExchangeStatus { IDLE, SENDING, PENDING, ACCEPTED, FAILED }
