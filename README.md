@@ -1,136 +1,88 @@
 <div align="center">
 
-# ✨ Maharti | مهارتي
-### Learn a Skill. Share a Skill. Grow Together.
+# Maharti | مهارتي
+**A peer-to-peer skill exchange application for university students**
 
-**A student-powered skill exchange platform**
+CSC 402 — Mobile Application Development · Imam Abdulrahman Bin Faisal University
 
-[![Course](https://img.shields.io/badge/Course-CSC%20402-6C5CE7?style=for-the-badge)](#-academic-context)
-[![Platform](https://img.shields.io/badge/Platform-Android-A29BFE?style=for-the-badge)](#-technology-stack)
-[![Status](https://img.shields.io/badge/Status-In%20Development-E8B86D?style=for-the-badge)](#-project-status)
-
-*Your knowledge is someone else's next skill.*
+**Project status:** In development · **Platform:** Android · **UI:** Kotlin / Jetpack Compose
 
 </div>
 
----
+## Project overview
 
-## 🌟 About Maharti
+Maharti helps university students exchange skills directly: a student can offer a skill they know in return for learning another. The intended journey includes discovering students and skills, reviewing profiles, sending exchange requests, scheduling accepted exchanges, and managing sessions.
 
-**Maharti (مهارتي)** is a peer-to-peer skill exchange application designed for university students. It creates a space where students can **teach what they know** and **learn what they need**—turning everyday talents into opportunities for collaboration, confidence, and growth.
+The application is being developed incrementally as part of CSC 402. Descriptions of planned features do not imply that they have already been implemented.
 
-Instead of traditional one-way learning, Maharti encourages students to exchange knowledge directly with one another.
+## Repository navigation
 
-> **Example:** A student skilled in PowerPoint presentations can offer help to a classmate who knows logo design. Both students gain a new skill through a mutually agreed exchange.
+| Location | Purpose | How to use it |
+| --- | --- | --- |
+| [`main` branch](https://github.com/maisaZI/CSC-402-Maharti/tree/main) | Central project documentation and milestone history | Start here for the project overview, team, and earlier deliverables |
+| [`docs/`](docs/) | Shared documentation | Browse design, architecture, wireframes, database, and earlier milestone submissions |
+| [`docs/milestone-2/`](docs/milestone-2/) | Milestone 2 records | Stage 1 and Stage 2 materials |
+| [`docs/database/`](docs/database/) | Database documentation | ERD and relational schema artifacts |
+| [`app` branch](https://github.com/maisaZI/CSC-402-Maharti/tree/app) | Android implementation and Milestone 3 Stage 2 workspace | Switch to this branch for member submissions, integrated code, and the report |
+| [Issues](https://github.com/maisaZI/CSC-402-Maharti/issues) | Assigned tasks | Find responsibilities and track progress |
+| [Pull requests](https://github.com/maisaZI/CSC-402-Maharti/pulls) | Review and integration | Review changes before merging |
+| [TEAM.md](TEAM.md) | Team roster | See members and earlier recorded responsibilities |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | Historical contribution instructions | Describes the earlier Milestone 2 workflow; use the `app` branch guide for current work |
 
-## 🎯 The Problem & Our Solution
-
-University students have valuable skills, but finding the right person to learn from—or someone who needs their expertise—can be difficult.
-
-Maharti aims to make that connection easier through:
-
-- **Skill discovery** — explore skills offered by fellow students.
-- **Student profiles** — see what someone can teach and what they want to learn.
-- **Exchange requests** — propose a skill exchange and track its status.
-- **Session scheduling** — agree on a suitable time after the request is accepted.
-- **Exchange management** — keep upcoming and ongoing exchanges organized.
-
-## 📱 Key Screens & Experience
-
-| Screen | Purpose |
-| :-- | :-- |
-| **Login / Sign Up** | Access the app and create an account |
-| **Reset Password** | Recover account access |
-| **Home** | Discover opportunities and access notifications |
-| **Skill Search** | Find students by the skills they offer |
-| **Student Profile** | View a student's skills and learning interests |
-| **Exchange Request** | Request a mutually beneficial exchange |
-| **Session Scheduling** | Arrange a session after acceptance |
-| **My Exchanges** | Track requests and exchanges |
-| **Profile** | Manage personal information and skills |
-
-**Intended exchange flow**
+### Android implementation workspace (`app` branch)
 
 ```text
-Discover a skill
-       ↓
-View student profile
-       ↓
-Send exchange request
-       ↓
-Pending response
-       ↓
-Request accepted
-       ↓
-Schedule a session
-       ↓
-Manage the exchange
+milestone-3-stage-2/
+├── individual-work/
+│   ├── Maisa/
+│   ├── Samar/
+│   ├── Haya/
+│   ├── Lyan/
+│   ├── Lena/
+│   ├── Monera/
+│   └── Reyouf/
+└── report/
+AndroidProject/
 ```
 
-*These screens and flows describe the planned product; their presence here does not imply all features have been implemented.*
+- **`individual-work/<member>/`**: each member's independently authored screen files and related notes, committed from her own GitHub account. These are contribution records, **not** the runnable application.
+- **`report/`**: the completed Milestone 3 Stage 2 submission PDF when ready.
+- **`AndroidProject/`**: the **single integrated Android Studio project**, to be added after the team establishes and tests it. Future functionality should extend this same project rather than creating duplicate app copies.
 
-## 🎨 Design Direction
+The initial folders are scaffolding only. A runnable Android project and final PDF have **not** been uploaded yet.
 
-Maharti is designed to feel **welcoming, modern, and student-friendly**, with a recognizable purple-led visual identity, clear typography, rounded components, and accessible interactions.
+## Contribution and integration workflow
 
-The design work focuses on:
+1. Open the **`app` branch** and find your assigned GitHub Issue.
+2. Upload your own work to `milestone-3-stage-2/individual-work/<your-name>/` with a descriptive commit message.
+3. Coordinate integration into the single project under `AndroidProject/`. The integrated code belongs in the Android project's normal `app/src/main/java/...` package structure.
+4. Review navigation, UI consistency, build, and run behavior in Android Studio. Do not mark untested code as complete.
+5. Commit the tested integrated changes to the **`app` branch**. Record screen files, route functions, and contributions in the report.
+6. For the milestone submission, ensure the required `milestone-3` tag points to the approved final commit and that the instructor can access the tested project. If a submission must be available from `main`, merge the approved implementation there first.
 
-- Consistent **Material 3** components and navigation.
-- Clear request statuses and understandable user feedback.
-- Readable color contrast and accessible controls.
-- Helpful empty, loading, validation, and error states.
-- A smooth journey from discovering a skill to scheduling an exchange.
+Each member should commit her own work. Do not attribute another person's contribution to yourself. The course requires a buildable project, connected navigation, and accurate AI-use disclosure in the Stage 2 report.
 
-**Prototype:** (https://www.figma.com/design/C7kJyspozVnCzA4Zkg1uwp/Maharti-%E2%80%93-Purple---Gold-Prototype?node-id=0-1&t=fJ8tEIzg9snRYJoD-1)
+## Planned application screens
 
-## 🛠 Technology Stack
+Login / Sign Up · Forgot Password · Home · Search & Filters · Student Profile · Exchange Request · Session Scheduling · My Exchanges · Profile
 
-| Area | Planned technology |
-| :-- | :-- |
-| Language | **Kotlin** |
-| Android UI | **Jetpack Compose** |
-| Design system | **Material 3** |
-| Development environment | **Android Studio** |
-| Collaboration | **Git & GitHub** |
-| Prototyping | **Figma** |
+**Intended user flow:** Search for a skill → view a student profile → send an exchange request → accept → schedule a session → manage the exchange.
 
-> The stack above describes the intended development approach, not a claim that the complete application has already been built.
+## Design and technology
 
-## 👩🏻‍💻 Meet the Team
+- **Design:** [Maharti Figma prototype](https://www.figma.com/design/C7kJyspozVnCzA4Zkg1uwp/Maharti-%E2%80%93-Purple---Gold-Prototype)
+- **Development:** Android Studio, Kotlin, Jetpack Compose, Material 3
+- **Collaboration:** GitHub Issues, commits, and pull requests
+- **Documentation:** [docs/README.md](docs/README.md)
 
-| Team Member | Milestone 2 — Stage 2 Responsibility |
-| :-- | :-- |
-| **Samar** | Design Foundations |
-| **Lyan** | Screen Inventory |
-| **Lena** | Navigation Map |
-| **Monera** | System Architecture |
-| **Reyouf** | Jetpack Components & Libraries |
-| **Maisa** | GitHub Evidence & Collaboration |
-| **Haya** | Response to Stage 1 Feedback *(assignment to confirm)* |
+## Academic context
 
-## 📂 Project Organization
+**Course:** CSC 402 — Mobile Application Development  
+**Project:** Maharti (مهارتي)  
+**Current implementation phase:** Milestone 3, Stage 2 — screen layouts and navigation
 
-Our **`milestone-2` branch** holds the shared Milestone 2 deliverables in `docs/`. Each member contributes through her own branch: `M2-Maisa`, `M2-Samar`, `M2-Lyan`, `M2-Lena`, `M2-Monera`, `M2-Reyouf`, or `M2-Haya`. Members open a **Pull Request targeting `milestone-2`**, which is reviewed before merging.
-
-See [Contribution Guidelines](CONTRIBUTING.md), [Team Roster](TEAM.md), and [Milestone 2 Documentation](docs/README.md).
-
-## 🎓 Academic Context
-
-- **Course:** CSC 402 — Mobile Application Development
-- **Project:** Maharti
-- **Current milestone:** Milestone 2
-- **Deliverables:** Interface design, navigation, architecture planning, technology choices, and documented team contributions.
-
-## 🚧 Project Status
-
-**In development.** This repository currently includes organizational and documentation scaffolding. Team-authored submissions, verified prototype links, and implementation files will be added as they become available.
+For team membership and contributions, see [TEAM.md](TEAM.md) and the milestone-specific report.
 
 ---
 
-<div align="center">
-
-### 💜 Learn together. Create together. Succeed together.
-
-**Maharti — Every skill has something to offer.**
-
-</div>
+<div align="center"><sub>Maharti — Learn a skill. Share a skill. Grow together.</sub></div>
